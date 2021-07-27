@@ -10,7 +10,7 @@ app.config['DEBUG'] = True
 # Show your student ID
 @app.route('/mystudentID/', methods=['GET'])
 def my_student_id():    
-    response={"studentID": "20019711G"}
+    response={"studentID": "xxxxxxxxx"}
     return jsonify(response), 200, {'Content-Type': 'application/json'}
 
 #b
